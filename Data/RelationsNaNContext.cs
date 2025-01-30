@@ -23,5 +23,10 @@ namespace RelationsNaN.Data
 
         public DbSet<Game> Game { get; set; } = default!;
         public DbSet<Genre> Genre { get; set; } = default!;
+
+        public DbSet<Platform> Platform { get; set; } = default!;
+        public DbSet<GamePurchase> GamePurchase { get; set; } = default!;
+        public DbSet<Purchase> Purchase { get; set; } = default!;
+
     }
 }
